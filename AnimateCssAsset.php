@@ -12,10 +12,6 @@ use yii\web\AssetBundle;
 class AnimateCssAsset extends AssetBundle {
 	public $sourcePath = '@bower/animate.css';
 
-	public $js = [
-		'js/animate.css.js',
-	];
-
 	public $css = [
 		'animate.min.css',
 	];
