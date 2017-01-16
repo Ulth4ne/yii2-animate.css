@@ -36,3 +36,19 @@ public $depends = [
     'ulth4ne\animatecss\AnimateAsset',
 ];
 ```
+
+And use it like this:
+
+```javascript
+$('#yourElement').animateCss('bounce');
+```
+
+You can change the duration of your animations, add a delay or change the number of times that it plays:
+
+```css
+#yourElement {
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+  -vendor-animation-iteration-count: infinite;
+}
+```
