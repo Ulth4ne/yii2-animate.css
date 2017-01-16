@@ -1,0 +1,26 @@
+{
+    "name": "ulth4ne/yii2-animate.css",
+    "description": "Animate.css assets for Yii PHP framework 2.0",
+    "keywords": ["yii", "extension", "animate.css", "assets"],
+    "type": "yii2-extension",
+    "minimum-stability": "stable",
+    "license": "BSD-3-Clause",
+
+    "authors": [
+        {
+            "name": "Anton Bagrov",
+            "email": "bagrov.ant@gmail.com"
+        }
+    ],
+
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/animate.css": "*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "ulth4ne\\animatecss\\": ""
+        }
+    }
+}
