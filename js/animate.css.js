@@ -7,10 +7,11 @@ $.fn.extend({
      * Adding and removing the animation on its completion
      * @param animationName title animation
      */
-    animateCss: function(animationName) {
+    animateCss: function(animationName, callback) {
         var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
         this.addClass('animated ' + animationName).one(animationEnd, function() {
             $(this).removeClass('animated ' + animationName);
+            callback();
         });
     }
 });
