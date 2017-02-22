@@ -6,6 +6,7 @@ $.fn.extend({
     /**
      * Adding and removing the animation on its completion
      * @param animationName title animation
+     * @param callback function on end animation
      */
     animateCss: function(animationName, callback) {
         var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
